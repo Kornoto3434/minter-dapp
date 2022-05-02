@@ -102,7 +102,7 @@ const solanaMetadata = {
   creators: [
     {
       address: "0x159e905764dd8D25FaBEf239b7F5F51Fe1b58c1dnPN4mC",
-      share: 100,
+      share: 1000,
     },
   ],
 };
