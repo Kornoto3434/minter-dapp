@@ -53,7 +53,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'AFRICAN APE TRADITION';
-const CONTRACT_SYMBOL = 'MAA';
+const CONTRACT_SYMBOL = 'AAT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x159e905764dd8D25FaBEf239b7F5F51Fe1b58c1d';
 const TREASURY_ADDRESS = '0x159e905764dd8D25FaBEf239b7F5F51Fe1b58c1d';
@@ -96,13 +96,13 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "MAA",
+  symbol: "AAT",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://twitter.com/ApeTradition",
   creators: [
     {
       address: "0x159e905764dd8D25FaBEf239b7F5F51Fe1b58c1dnPN4mC",
-      share: 1000,
+      share: 100,
     },
   ],
 };
