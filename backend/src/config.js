@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 500,
+    growEditionSizeTo: 400,
     layersOrder: [
       { name: "1-Backround" },
       { name: "2-Main figure" },
@@ -41,7 +41,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://africanapetradition.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
