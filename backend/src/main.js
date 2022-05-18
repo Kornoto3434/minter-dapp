@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     ...extraMetadata,
     date: dateTime,
-    compiler: "kornoto",
+    compiler: "Kornoto",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
@@ -170,7 +170,7 @@ const addMetadata = (_dna, _edition) => {
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
-  if(selectedElement.name.trim().toLowerCase() != "blank") {
+  if(selectedElement.name.trim().toLowerCase() !== "blank") {
   attributesList.push({
     trait_type: _element.layer.name,
     value: selectedElement.name,
