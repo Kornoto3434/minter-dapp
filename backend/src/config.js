@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "AFRICAN APE TRADITION";
-const description = "A unique collection of traditional apes";
+const description = "A unique collection of African traditional apes";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -41,7 +41,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://africanapetradition.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://wwww.africanapetradition.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -73,7 +73,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x8b32D5Bf70b730E49bEC5FcF4a41F322C8aA16C5"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xf1EeD8bC93A1dEbeA0f4674bD666361BD6b8ad25"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -100,7 +100,7 @@ try {
 const solanaMetadata = {
   symbol: "AAT",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://africanapetradition.xyz",
+  external_url: "https://www.africanapetradition.xyz",
   creators: [
     {
       address: "00x9e1E558B89511a73b6378FFE324231456eC4EDC1",
