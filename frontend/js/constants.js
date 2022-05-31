@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the African Ape Tradition NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The African Ape Tradition is a heritage project,never seen before one-of-a-kind African project that aims to demonstrate and showcase African culture and tradition.';
+const welcome_p = 'The African Ape Tradition is a heritage project, never seen before one-of-a-kind African project that aims to demonstrate and showcase African culture and tradition.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
