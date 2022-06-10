@@ -14,16 +14,16 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 200,
     layersOrder: [
       { name: "1-backround" },
       { name: "2-Main figure" },
       { name: "3-Clothing" },
       { name: "4-Neck" },
-      { name: "5-Eyes" },
+      { name: "5-Face painting" },
       { name: "6-Hats" },
-      { name: "7-Ears" },
-      { name: "8-Staff" },
+      { name: "7-Eyes" },
+      { name: "8-Ears" },
       { name: "9-Mouth" },
       { name: "10-Emblem" },
     ],
