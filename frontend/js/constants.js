@@ -1,4 +1,4 @@
-const contractAddress = "0xac1c77c642dc515c93f299ae3e4a2b72ebe09783"; //Replace with your own contract address
+const contractAddress ="0xac1c77c642dc515c93f299ae3e4a2b72ebe09783"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the African Ape Tradition NFT Project!!";
